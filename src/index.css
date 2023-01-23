@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+iframe{
+  display: none !important;
+}
+
+.dualImg{
+  width: 30px;
+  height: 30px;
+}
+@media screen and (max-width: 600px) {
+  .dualImg{
+    width: 25px;
+    height: 25px;
+  }
+}
